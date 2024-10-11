@@ -1,0 +1,28 @@
+[2024-10-11 13:46:44] [Tests/test_search.py::TestSearchFunctionalityChrome::test_search] Инициализация WebDriver для Google Chrome
+[2024-10-11 13:46:47] [Tests/test_search.py::TestSearchFunctionalityChrome::test_search] Открытие веб-сайта: https://www.python.org/
+[2024-10-11 13:46:49] [Tests/test_search.py::TestSearchFunctionalityChrome::test_search] Ошибка при выполнении поиска: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00DF5523+24195]
+	(No symbol) [0x00D8AA04]
+	(No symbol) [0x00C82093]
+	(No symbol) [0x00C5E22B]
+	(No symbol) [0x00CF173F]
+	(No symbol) [0x00D04BB9]
+	(No symbol) [0x00CEA8D6]
+	(No symbol) [0x00CBBA27]
+	(No symbol) [0x00CBC43D]
+	GetHandleVerifier [0x010BCE13+2938739]
+	GetHandleVerifier [0x0110EC69+3274185]
+	GetHandleVerifier [0x00E809C2+594722]
+	GetHandleVerifier [0x00E87EDC+624700]
+	(No symbol) [0x00D937CD]
+	(No symbol) [0x00D90528]
+	(No symbol) [0x00D906C5]
+	(No symbol) [0x00D82CA6]
+	BaseThreadInitThunk [0x76497BA9+25]
+	RtlInitializeExceptionChain [0x77E3C0CB+107]
+	RtlClearBits [0x77E3C04F+191]
+
+[2024-10-11 13:46:49] [Tests/test_search.py::TestSearchFunctionalityChrome::test_search] Закрытие WebDriver

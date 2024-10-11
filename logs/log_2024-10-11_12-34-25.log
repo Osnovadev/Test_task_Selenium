@@ -1,5 +1,5 @@
 [2024-10-11 12:34:25] [Tests/test_search_edge.py::TestSearchFunctionalityEdge::test_search] Инициализация WebDriver для Microsoft Edge
-[2024-10-11 12:34:28] [Tests/test_search_edge.py::TestSearchFunctionalityEdge::test_search] Открытие веб-сайта: https://www.python.org/
+[2024-10-11 12:34:28] [Tests/terch_edge.py::TestSearchFunctionalityEdge::test_search] Открытие веб-сайта: https://www.python.org/
 [2024-10-11 12:34:30] [Tests/test_search_edge.py::TestSearchFunctionalityEdge::test_search] Ввод ключевого слова: Selenium
 [2024-10-11 12:34:31] [Tests/test_search_edge.py::TestSearchFunctionalityEdge::test_search] Найдено результатов: 1
 [2024-10-11 12:34:31] [Tests/test_search_edge.py::TestSearchFunctionalityEdge::test_search] Проверка результата: event – revisión automática de despliegues web usando selenium

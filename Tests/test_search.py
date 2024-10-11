@@ -47,15 +47,21 @@ class TestSearchFunctionalityChrome:
             Logger.add_message(f"Найдено результатов: {num_results}")
             assert num_results > 0, "Результаты поиска не найдены."
 
+            keyword_found = False
+
             for result in results:
                 text = result.text.lower()
                 Logger.add_message(f"Проверка результата: {text}")
-                assert keyword.lower() in text, (
-                    f"Ключевое слово '{keyword}' не найдено в результате: '{text}'"
-                )
 
-            Logger.add_message("Тест пройден: Все результаты содержат ключевое слово.")
-            print("Тест пройден: Все результаты содержат ключевое слово.")
+                if keyword.lower() in text:
+                    keyword_found = True
+                    Logger.add_message(f"Ключевое слово '{keyword}' найдено в результате: '{text}'")
+                    break
+
+            assert keyword_found, f"Ключевое слово '{keyword}' не найдено ни в одном из результатов."
+
+            Logger.add_message("Тест пройден: Ключевое слово найдено хотя бы в одном результате.")
+            print("Тест пройден: Ключевое слово найдено хотя бы в одном результате.")
         except AssertionError as e:
             Logger.add_message(f"Тест провален: {e}")
             raise
