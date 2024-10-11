@@ -1,0 +1,10 @@
+[2024-10-11 12:33:25] [Tests/test_search.py::TestSearchFunctionalityChrome::test_search] Инициализация WebDriver для Google Chrome
+[2024-10-11 12:33:28] [Tests/test_search.py::TestSearchFunctionalityChrome::test_search] Открытие веб-сайта: https://www.python.org/
+[2024-10-11 12:33:30] [Tests/test_search.py::TestSearchFunctionalityChrome::test_search] Ввод ключевого слова: Selenium
+[2024-10-11 12:33:31] [Tests/test_search.py::TestSearchFunctionalityChrome::test_search] Найдено результатов: 1
+[2024-10-11 12:33:31] [Tests/test_search.py::TestSearchFunctionalityChrome::test_search] Проверка результата: event – revisión automática de despliegues web usando selenium
+24 march from 1pm utc to 8pm utc, 2018
+location: pereira, colombia
+python pereira and python colombia
+[2024-10-11 12:33:31] [Tests/test_search.py::TestSearchFunctionalityChrome::test_search] Тест пройден: Все результаты содержат ключевое слово.
+[2024-10-11 12:33:31] [Tests/test_search.py::TestSearchFunctionalityChrome::test_search] Закрытие WebDriver

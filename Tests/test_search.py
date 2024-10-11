@@ -13,7 +13,7 @@ class TestSearchFunctionalityChrome:
     def driver(self):
         # Настройка опций для Chrome
         options = Options()
-        options.add_argument("--log-level=3")  # Установка уровня логирования браузера
+        options.add_argument("--log-level=3")
 
         # Инициализация WebDriver
         Logger.add_message("Инициализация WebDriver для Google Chrome")

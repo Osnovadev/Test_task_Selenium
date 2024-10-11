@@ -2,17 +2,17 @@ import datetime
 import os
 """ Создание логов"""
 class Logger:
-    #путь к корневой директории проекта
+
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     logs_dir = os.path.join(base_dir, 'logs')
 
     file_name = os.path.join(logs_dir, f'log_{datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.log')
-    """Создание директории"""
+
     @classmethod
     def create_log_dir(cls):
         if not os.path.exists(cls.logs_dir):
             os.makedirs(cls.logs_dir)
-    """Запись лога в файл"""
+
     @classmethod
     def write_log_to_file(cls, data: str):
         cls.create_log_dir()

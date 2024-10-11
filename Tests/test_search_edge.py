@@ -13,7 +13,7 @@ class TestSearchFunctionalityEdge:
     def driver(self):
         # Настройка опций для Edge
         options = Options()
-        
+
         # Инициализация WebDriver
         Logger.add_message("Инициализация WebDriver для Microsoft Edge")
         driver = webdriver.Edge(service=Service(EdgeChromiumDriverManager().install()), options=options)
